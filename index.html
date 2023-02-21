@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Németh Norbert (REDCAT) Portfóliója</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+<div id="pre_loader">
+    <img src="img/logo3.svg" alt="">
+</div>
+ <nav class="sidenav">
+    <ul>
+        <li class="logo"><a href="#home"><img src="img/logo2.webp" alt="logo of webdesigner"></a></li>
+        <li><a href="#home">Főoldal</a></li>
+        <li><a href="#work">Munkáim</a></li>
+        <li><a href="#about">Rólam</a></li>
+        <li><a href="#contact">Kapcsolat</a></li>
+    </ul> 
+    <ul>
+        <li><img id="darkMode" src="img/moon-fill.svg" alt=""></i></li>
+        <li id="lang">HU</li>
+    </ul>
+</nav>
+
+<div class="main">
+    <div id="home" class="box">
+        <h1>Németh Norbert (Frontend Webfejlesztő)</h1>
+    </div>
+    <div id="work" class="box">
+        <h2>Munkáim</h2>
+        <div id="myBtnContainer">
+            <div class="btn active" onclick="filterSel('all')"> <i class="devicon-html5-plain"></i> <p>összes</p></div>
+            <div class="btn" onclick="filterSel('css')"> <i class="devicon-sass-plain"></i> <p>css</p></div>
+            <button class="btn" onclick="filterSel('boot')"><i class="devicon-bootstrap-plain"></i> <p>bootstrap</p></button>
+            <button class="btn" onclick="filterSel('js')"> <i class="devicon-javascript-plain"></i> <p>javascript</p></button>
+            <button class="btn" onclick="filterSel('ts')"> <i class="devicon-typescript-plain"></i> <p>typescript</p></button>
+            <button class="btn" onclick="filterSel('react')"> <i class="devicon-react-plain"></i> <p>react js</p></button>
+            <button class="btn" onclick="filterSel('tjs')"> <i class="devicon-threejs-original"></i> <p>three.js</p></button>
+            <button class="btn" onclick="filterSel('php')"> <i class="devicon-php-plain"></i> <p>php</p></button>
+            <button class="btn" onclick="filterSel('sql')"> <i class="devicon-mysql-plain"></i> <p>mysql</p></button>
+            <button class="btn" onclick="filterSel('wp')"> <i class="devicon-wordpress-plain"></i> <p>wordpress</p></button>
+        </div>
+        
+        <div class="container">
+            <div class="filterDiv css js php sql">REDCAT iD</div>
+            <div class="filterDiv css boot js php">RAB RÁBY</div>
+            <div class="filterDiv css js php">Donut Paradise</div>
+            <div class="filterDiv css js">SOL Winery</div>
+            <div class="filterDiv css js beh">Szelence</div>
+            <div class="filterDiv wp">ÉPÍT7EK</div>
+            <div class="filterDiv css js react">Drinking Game</div>
+            <div class="filterDiv css js react php sql">Webshop</div>
+            <div class="filterDiv css ts react">Windows XP</div>
+        </div>
+        <div class="eszkozok">
+            <h3>Eszközök amiket használok</h3>
+            <ul>
+                <li><i class="devicon-vscode-plain"></i></li>
+                <li><i class="devicon-blender-original"></i></li>
+                <li><i class="devicon-github-original"></i></li>
+                <li><i class="devicon-photoshop-plain"></i></li>
+                <li><i class="devicon-figma-plain"></i></li>
+                <li><i class="devicon-inkscape-plain"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div id="about" class="box">
+        <h2>Rólam</h2>
+
+    </div>
+    <div id="contact" class="box">
+        <h2>Kapcsolat</h2>
+
+    </div>
+    <footer>
+        Designed by RC
+    </footer>
+</div> 
+<script src="js/main.js"></script>
+</body>
+</html>
